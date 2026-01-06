@@ -1,0 +1,28 @@
+/* Styling is mostly handled by Tailwind and inline styles in React components */
+/* This file is kept for advanced custom animations if needed */
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+.animate-pulse-slow {
+  animation: pulse-glow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Styling is mostly handled by Tailwind and inline styles in React components */
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+.animate-pulse-slow {
+  animation: pulse-glow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Custom Selection Color */
+::selection {
+  background: #00ff9d;
+  color: #000;
+}
